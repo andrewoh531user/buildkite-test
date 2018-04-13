@@ -8,4 +8,4 @@ steps:
     command:
       - echo "Testing..."
 
-  - block: ":rocket: Release!"
+  - block: ":rocket: Release!!"
