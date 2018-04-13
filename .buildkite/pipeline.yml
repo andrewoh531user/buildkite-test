@@ -1,0 +1,11 @@
+steps:
+  - label: 'Build :hammer:'
+    command:
+      - echo "Building..."
+
+  - wait
+  - label: 'Test :junit:'
+    command:
+      - echo "Testing..."
+
+  - block: ":rocket: Release!"
